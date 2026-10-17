@@ -10,7 +10,7 @@ The original ASCR062 animation was too large to fit in the game's available RAM,
 
 ## ULUARGE reinforcements
 
-The original mission contains a bug where Titan-Net reinforcements are announced, but they never arrive. `MIS/MISS021.DAT` keeps the warning on turn 10 and adds the bridge and reinforcements at the start of turn 11. Existing roads and paths are preserved.
+The original mission contains a bug where Titan-Net reinforcements are announced, but they never arrive. `MIS/MISS021.DAT` keeps the warning on turn 10 and adds the bridge and reinforcements at the start of turn 11. Existing roads and paths are preserved. The lake tile on the right is loaded at mission start, kept hidden, and placed with the turn-11 changes.
 
 ![KAIMAWA ASCR062 animation frame](https://raw.githubusercontent.com/muro/bi2-mission-fixes/main/uluarge_announce.png)
 
@@ -24,4 +24,4 @@ The original mission contains a bug where Titan-Net reinforcements are announced
 
 To install only one fix, copy only its files. Do not copy them to `SCENERY`: that folder has its own campaign and files with the same names. The patches belong in the installed game directory, not the CD image.
 
-**Start ULUARGE again after installing its fix.** Existing saves contain their own scheduled-event queue and do not automatically trigger after replacing the mission file.
+**Start ULUARGE again after installing its fix.** Existing saves contain their own scheduled-event queue and terrain indices; replacing the mission file does not update them.
