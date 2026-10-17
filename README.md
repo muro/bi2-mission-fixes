@@ -10,7 +10,7 @@ The original ASCR062 animation was too large to fit in the game's available RAM,
 
 ## ULUARGE reinforcements
 
-The original mission contains a bug where Titan-Net reinforcements are announced, but they never arrive. `MIS/MISS021.DAT` fixes the missing activation after the warning in turn 10.
+The original mission contains a bug where Titan-Net reinforcements are announced, but they never arrive. `MIS/MISS021.DAT` keeps the warning on turn 10 and adds the bridge and reinforcements at the start of turn 11. Existing roads and paths are preserved.
 
 ![KAIMAWA ASCR062 animation frame](https://raw.githubusercontent.com/muro/bi2-mission-fixes/main/uluarge_announce.png)
 
