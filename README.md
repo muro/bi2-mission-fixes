@@ -20,12 +20,13 @@ The original mission contains a bug where Titan-Net reinforcements are announced
 The `ENG` directory contains these English-only corrections:
 
 - JOGRWAI (`MISS001`, report 018): remove RANGER from the required kills. Capturing Pank and destroying the enemy DEMON units can satisfy the mission without destroying all RANGERs.
+- GEGIDOS (`MISS002`, report 019): identify the units expected in the depots as armored trains.
 - FITORGE (`MISS008`, report 052): add Titan-Net’s HQ as the third capture objective and correct “will bombardment” to “will bombard”.
 - WABODAE (`MISS003`, report 031): correct “Bay of Maxis” to “Bay of Meltix”.
 - GEEUSAT (`MISS012`): restore the existing English mission title and place names, which were shipped in `MISS011.TXT`. Report 095 now says “We are now preparing to attack Titan-Net's headquarters directly”, following the German version.
 - WABIKDO (`MISS011`): replace place names 2–25 with names matching its facilities. Report 071 now places the naval base “in the north-west of your sector of operations”. Its mission title and description remain pending a separate translation decision.
 
-`ENG/ATXT000.LIB` changes only reports 018, 031, 052, 071 and 095. The ASCR053 sound correction is shared by both languages. The corrections are all in `ENG/ATXT000.LIB` and install together.
+`ENG/ATXT000.LIB` changes only reports 018, 019, 031, 052, 071 and 095. The ASCR053 sound correction is shared by both languages. The corrections are all in `ENG/ATXT000.LIB` and install together.
 
 ## Installation
 
